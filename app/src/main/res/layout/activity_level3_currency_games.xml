@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background5">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom" >
+        <ImageView
+            android:id="@+id/score"
+            android:src="@drawable/starb0"
+            android:layout_width="250dip"
+            android:layout_height="60dip"
+            android:layout_marginLeft="2dip"
+            android:layout_alignParentLeft="true"/>
+
+        <ImageButton
+            android:id="@+id/home_button"
+            android:layout_width="50dip"
+            android:layout_height="50dip"
+            android:layout_marginTop="10dip"
+            android:layout_marginRight="10dip"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/home"
+            android:onClick="setHomeButton"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/cashView"
+            android:text="0"
+            android:textSize="40px"
+            android:textAlignment="center"
+            android:layout_width="250dip"
+            android:layout_height="75dip"
+            android:layout_gravity="center"></TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dip"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="250dip"
+                android:layout_height="match_parent"></LinearLayout>
+
+            <LinearLayout
+                android:layout_width="510dip"
+                android:layout_height="70dip"
+                android:layout_gravity="right"
+                android:layout_marginLeft="205dip"
+                android:layout_marginRight="5dip"
+                android:id="@+id/paidBox"
+                android:orientation="horizontal"
+                android:background="@android:color/darker_gray"
+                android:layout_marginBottom="10dip">
+
+
+
+                <ImageView
+                    android:layout_width="80dip"
+                    android:layout_marginLeft="10dip"
+                    android:layout_height="match_parent"
+                    android:id="@+id/currency_1_paid"></ImageView>
+
+
+                <TextView
+                    android:id="@+id/currency_1_paidview"
+                    android:layout_width="20dip"
+                    android:layout_height="50dip"
+                    android:layout_gravity="bottom"
+                    android:textColor="@android:color/white" />
+
+                <LinearLayout
+                    android:layout_width="1dip"
+                    android:layout_height="match_parent"></LinearLayout>
+
+                <ImageView
+                    android:layout_width="80dip"
+                    android:layout_height="match_parent"
+                    android:id="@+id/currency_2_paid"></ImageView>
+
+                <TextView
+                    android:id="@+id/currency_2_paidview"
+                    android:layout_width="20dip"
+                    android:layout_height="50dip"
+                    android:layout_gravity="bottom"
+                    android:textColor="@android:color/white" />
+
+                <LinearLayout
+                    android:layout_width="1dip"
+                    android:layout_height="match_parent"></LinearLayout>
+
+                <ImageView
+                    android:layout_width="80dip"
+                    android:layout_height="match_parent"
+                    android:id="@+id/currency_3_paid"></ImageView>
+
+                <TextView
+                    android:id="@+id/currency_3_paidview"
+                    android:layout_width="20dip"
+                    android:layout_height="50dip"
+                    android:layout_gravity="bottom"
+                    android:textColor="@android:color/white" />
+
+                <LinearLayout
+                    android:layout_width="1dip"
+                    android:layout_height="match_parent"></LinearLayout>
+
+                <ImageView
+                    android:layout_width="80dip"
+                    android:layout_height="match_parent"
+                    android:id="@+id/currency_4_paid"></ImageView>
+
+                <TextView
+                    android:id="@+id/currency_4_paidview"
+                    android:layout_width="20dip"
+                    android:layout_height="50dip"
+                    android:layout_gravity="bottom"
+                    android:textColor="@android:color/white" />
+
+                <LinearLayout
+                    android:layout_width="1dip"
+                    android:layout_height="match_parent"></LinearLayout>
+
+                <ImageView
+                    android:layout_width="80dip"
+                    android:layout_height="match_parent"
+                    android:id="@+id/currency_5_paid"></ImageView>
+
+                <TextView
+                    android:id="@+id/currency_5_paidview"
+                    android:layout_width="20dip"
+                    android:layout_height="50dip"
+                    android:layout_gravity="bottom"
+                    android:textColor="@android:color/white" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+
+            android:layout_height="80dip"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dip"
+            android:layout_weight="0.5">
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="150dp"
+                android:id="@+id/item"
+                android:layout_weight="0.4"
+                android:layout_gravity="top"/>
+
+
+            <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="500dp"
+                android:layout_height="150dp"
+                android:layout_alignParentRight="true"
+                android:background="@android:color/darker_gray">
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/imageSandbox"
+                    android:layout_alignParentRight="true"
+                    android:gravity="top"
+                    android:background="@android:color/darker_gray"
+                    android:layout_marginRight="5dip"
+                    android:layout_marginLeft="5dip"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="65dp"
+                        android:id="@+id/currency_1_billSnap"
+                        android:layout_alignParentTop="true"
+                        android:gravity="top"
+                        android:layout_weight="0.22"
+                        android:layout_marginLeft="5dip"
+                        android:layout_marginTop="3dip"
+                        android:background="@android:color/darker_gray" />
+
+                    <LinearLayout
+                        android:layout_width="20dip"
+                        android:layout_height="65dip"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/currency_1_num"
+                            android:layout_width="100dip"
+                            android:layout_height="100dip" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="40dip"
+                        android:layout_height="10dip"
+                        android:layout_weight="0.2"></LinearLayout>
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="65dp"
+                        android:id="@+id/currency_2_billSnap"
+                        android:layout_alignParentTop="true"
+                        android:gravity="top"
+                        android:layout_weight="0.22"
+                        android:layout_marginTop="3dip"
+                        android:background="@android:color/darker_gray" />
+
+                    <LinearLayout
+                        android:layout_width="20dip"
+                        android:layout_height="65dip"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="30dip"
+                            android:layout_height="45dip"></LinearLayout>
+
+                        <TextView
+                            android:id="@+id/currency_2_num"
+                            android:layout_width="20dip"
+                            android:layout_height="50dip" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="50dip"
+                        android:layout_height="10dip"
+                        android:layout_weight="0.2"></LinearLayout>
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="65dp"
+                        android:id="@+id/currency_3_billSnap"
+                        android:layout_alignParentTop="true"
+                        android:background="@android:color/darker_gray"
+                        android:layout_marginTop="3dip"
+                        android:layout_weight="0.232"
+                        android:gravity="top" />
+
+                    <LinearLayout
+                        android:layout_width="20dip"
+                        android:layout_height="65dip"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="30dip"
+                            android:layout_height="45dip"></LinearLayout>
+
+                        <TextView
+                            android:id="@+id/currency_3_num"
+                            android:layout_width="20dip"
+                            android:layout_height="50dip" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="50dip"
+                        android:layout_height="10dip"
+                        android:layout_weight="0.2"></LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"></LinearLayout>
+
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="65dp"
+                    android:id="@+id/currency_4_billSnap"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="5dip"
+                    android:layout_marginBottom="4dip"
+                    android:gravity="top"
+                    android:background="@android:color/darker_gray" />
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="20dp"
+                    android:id="@+id/currency_4_num"
+                    android:layout_alignParentBottom="true"
+                    android:layout_toRightOf="@id/currency_4_billSnap"
+                    android:gravity="top" />
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="65dp"
+                    android:id="@+id/imageBox45"
+                    android:layout_alignParentBottom="true"
+                    android:layout_toRightOf="@id/currency_4_num"
+                    android:gravity="top"
+                    android:background="@android:color/darker_gray" />
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="65dp"
+                    android:id="@+id/currency_5_billSnap"
+                    android:layout_alignParentBottom="true"
+                    android:layout_toRightOf="@id/imageBox45"
+                    android:gravity="top"
+                    android:layout_marginBottom="4dip"
+                    android:background="@android:color/darker_gray" />
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="20dp"
+                    android:id="@+id/currency_5_num"
+                    android:layout_alignParentBottom="true"
+                    android:layout_toRightOf="@id/currency_5_billSnap"
+                    android:gravity="top" />
+
+                <ImageView
+                    android:layout_width="300dp"
+                    android:layout_height="65dp"
+                    android:id="@+id/imageBox55"
+                    android:layout_alignParentBottom="true"
+                    android:layout_toRightOf="@id/currency_5_num"
+                    android:gravity="top"
+                    android:background="@android:color/darker_gray" />
+
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="50dip"
+                android:layout_height="300dip"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="50dip"
+                    android:layout_height="10dip"></LinearLayout>
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/nextArrow"
+                    android:background="@drawable/demo_next_right_arrow_black"
+                    android:layout_weight="0.04"
+                    android:onClick="advanceGame" />
+
+                <LinearLayout
+                    android:layout_width="50dip"
+                    android:layout_height="200dip"></LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:layout_weight="0.2">
+
+
+        <LinearLayout
+            android:layout_width="20dp"
+            android:layout_height="match_parent"></LinearLayout>
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="65dp"
+            android:id="@+id/currency_1_bill"
+            android:layout_marginBottom="10dip"
+            android:layout_weight="0.04" />
+
+        <LinearLayout
+            android:layout_width="40dp"
+            android:layout_height="match_parent"></LinearLayout>
+
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="65dp"
+            android:id="@+id/currency_2_bill"
+            android:layout_marginBottom="10dip"
+            android:layout_weight="0.04" />
+
+        <LinearLayout
+            android:layout_width="40dp"
+            android:layout_height="match_parent"></LinearLayout>
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="65dp"
+            android:id="@+id/currency_3_bill"
+            android:layout_marginBottom="10dip"
+            android:layout_weight="0.04" />
+
+        <LinearLayout
+            android:layout_width="40dp"
+            android:layout_height="match_parent"></LinearLayout>
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="65dp"
+            android:id="@+id/currency_4_bill"
+            android:layout_marginBottom="10dip"
+            android:layout_weight="0.04" />
+
+        <LinearLayout
+            android:layout_width="40dp"
+            android:layout_height="match_parent"></LinearLayout>
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="65dp"
+            android:id="@+id/currency_5_bill"
+            android:layout_marginBottom="10dip"
+            android:layout_weight="0.04" />
+
+        <LinearLayout
+            android:layout_width="20dp"
+            android:layout_height="match_parent"></LinearLayout>
+
+        <ImageView
+            android:id="@+id/finger1"
+            android:gravity="bottom"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:maxHeight="60dp"
+            android:maxWidth="60dp"
+            android:minHeight="60dp"
+            android:minWidth="60dp"
+            android:layout_gravity="right"
+            android:src="@drawable/finger"/>
+    </LinearLayout>
+
+
+</RelativeLayout>

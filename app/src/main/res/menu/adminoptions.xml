@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:login="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/become_admin"
+        android:icon="@drawable/admin"
+        android:title="Become Root"
+        login:showAsAction="ifRoom|withText"/>
+
+    <!-- Settings, should always be in the overflow -->
+    <group>
+    <item android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        login:showAsAction="ifRoom|withText"/>
+        <item android:id="@+id/action_settings2"
+            android:title="action_settings the second"
+            login:showAsAction="ifRoom|withText"/>
+    </group>
+
+</menu>

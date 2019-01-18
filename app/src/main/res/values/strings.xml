@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">FinancialNumeracyGames</string>
+
+    <string name="btn_lvl1_text">0-9</string>
+    <string name="btn_lvl2_text">10-9999</string>
+    <string name="btn_lvl3_text">10000-10000000</string>
+
+    <string name="true_button">Prev</string>
+    <string name="false_button">Next</string>
+    <string name="finish_button">Next</string>
+
+    <string name="btn_lvl1_QA_text">Q&amp;A</string>
+    <string name="btn_lvl1_tracing_text">Tracing</string>
+    <string name="btn_lvl1_dualCoding_text">Dual Coding</string>
+
+    <string name="btn_lvl2_placeValue_text">Place Value (blocks)</string>
+    <string name="btn_lvl2_ordering_text">Ordering</string>
+    <string name="btn_lvl2_fillInTheBlanks_text">Fill In The Blanks</string>
+
+    <string name="btn_lvl3_placeValue_text">Place Value (currency)</string>
+    <string name="btn_lvl3_ordering_text">Ordering</string>
+    <string name="btn_lvl3_valuesInCash_text">Values In Cash</string>
+    <string name="btn_lvl3_exactChange_text">Exact Change</string>
+
+    <string name="lvl1_msg">This is Level 1! Pick a game!</string>
+    <string name="lvl2_msg">This is Level 2! Pick a game!</string>
+    <string name="lvl3_msg">This is Level 3! Pick a game!</string>
+
+    <string name="lvl1_gametracing_msg">This is Tracing!</string>
+    <string name="lvl1_gametracing_nextBtn">Next</string>
+
+    <string name="lvl1_gamedualCoding_msg">This is Dual Coding!</string>
+    <string name="lvl1_demoQA_msg">This is the Demo/Tutorial for QA!</string>
+    <string name="lvl1_demodualCoding_msg">This is the Demo/Tutorial for Dual Coding!</string>
+
+    <string name="lvl2_gameordering_msg">This is Ordering!</string>
+    <string name="lvl2_gamefillInTheBlanks_msg">This is Fill In The Blanks!</string>
+
+    <string name="lvl3_gameplaceValue_msg">This is Place Value!</string>
+    <string name="lvl3_gameordering_msg">This is Ordering!</string>
+    <string name="lvl3_gamevaluesInCash_msg">This is Values In Cash!</string>
+    <string name="lvl3_gameexactChange_msg">This is Exact Change!</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="title_activity_level1">Level1Activity</string>
+    <string name="title_activity_level1_gameqa">Level1ActivityGameQA</string>
+    <string name="title_activity_level2_gamepv">Level2ActivityGamePV</string>
+    <string name="tens">10</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_level2">Level2Activity</string>
+</resources>

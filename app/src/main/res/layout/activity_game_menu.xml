@@ -1,0 +1,67 @@
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp" tools:context=".GameMenuActivity"
+    android:background="@drawable/gamechoicebackground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="20dip"
+            android:layout_height="150dip"
+            ></LinearLayout>
+
+    <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:orientation="horizontal">
+
+       <ImageButton
+        android:id="@+id/btn_lvl1"
+        android:layout_height="220dip"
+        android:layout_width="180dip"
+           android:layout_marginLeft="20dip"
+        android:onClick="goToLevel1"
+        android:background="@drawable/sign1"
+        />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_weight="0.3"></LinearLayout>
+
+    <ImageButton
+        android:id="@+id/btn_lvl2"
+        android:layout_height="220dip"
+        android:layout_width="180dip"
+        android:onClick="goToLevel2"
+        android:background="@drawable/sign2"
+        />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_weight="0.3"></LinearLayout>
+
+    <ImageButton
+        android:id="@+id/btn_lvl3"
+        android:layout_height="220dip"
+        android:layout_width="180dip"
+        android:onClick="goToLevel3"
+        android:layout_marginRight="20dip"
+        android:background="@drawable/sign3"
+        />/>
+    </LinearLayout>
+</LinearLayout>
+</LinearLayout>
+
